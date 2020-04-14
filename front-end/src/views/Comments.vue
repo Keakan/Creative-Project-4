@@ -54,6 +54,7 @@
 
 .released {
   margin: 25px;
+  width: 100%;
   margin-top: 50px;
   padding: 5px;
   width: 100%;
@@ -161,15 +162,12 @@ button {
 }
 
 .releases {
-  margin-top: 10vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .released {
-  margin: 10vw;
-  margin-top: 15vw;
   padding: 2vw;
   width: 100%;
   background-color: #f6f6f5;
@@ -187,7 +185,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  margin-bottom: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
