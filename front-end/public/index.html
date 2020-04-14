@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <title>Marvel Movies Archive</title>
+  </head>
+  <style>
+  body {
+    margin: none;
+  }
+
+  #main {
+    margin: 50px 100px;
+  }
+
+  #footer {
+      position: absolute;
+  		width: 100%;
+  		background: #e50b14;
+  		text-align: center;
+  		padding: 4px 0;
+      margin-top: 25px;
+      margin-left: -100px;
+  }
+
+  #gitlink{
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 1em;
+      font-weight: bold;
+      text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 481px){
+
+  body {
+    margin: none;
+  }
+
+  #main {
+    margin: 50px 100px;
+  }
+
+  #footer {
+      position: absolute;
+      width: 105%;
+      background: #e50b14;
+      text-align: center;
+      padding: 4px 0;
+      margin-top: 25px;
+      margin-left: -100px;
+  }
+
+  #gitlink{
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 1em;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  }
+  </style>
+
+  <body style="">
+    <div id="main">
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </div>
+
+  <footer id="footer">
+    <div class="innertube">
+      <p><a id="gitlink" href="https://github.com/Keakan/VueMovies"><i>GITHUB REPOSITORY</i></a></p>
+    </div>
+  </footer>
+  </body>
+</html>
