@@ -54,7 +54,7 @@ export default {
   data() {
       return {
         title: "",
-        comment: "",
+        comment: "hello",
         author: "",
 
         addItem: null,
